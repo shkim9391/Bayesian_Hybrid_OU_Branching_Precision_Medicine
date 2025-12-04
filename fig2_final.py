@@ -41,7 +41,7 @@ from matplotlib.patches import Rectangle
 # ---------------------------------------------------------------------
 # 0. Paths – EDIT THESE IF YOUR LAYOUT CHANGES
 # ---------------------------------------------------------------------
-PROJECT_ROOT = Path("/Users/seung-hwan.kim/Desktop/Bayesian_Hybrid_OU_Branching_Precision_Medicine")
+PROJECT_ROOT = Path("/Bayesian_Hybrid_OU_Branching_Precision_Medicine")
 FIG2_DIR = PROJECT_ROOT / "Figure 2"
 OUT_DIR = FIG2_DIR / "out_bayes_real"
 
