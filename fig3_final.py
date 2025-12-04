@@ -57,7 +57,7 @@ from pytensor.compile import Mode
 # User parameters – EDIT HERE IF NEEDED
 # ---------------------------------------------------------------------
 PROJECT_ROOT = Path(
-    "/Users/seung-hwan.kim/Desktop/Bayesian_Hybrid_OU_Branching_Precision_Medicine"
+    "/Bayesian_Hybrid_OU_Branching_Precision_Medicine"
 )
 FIG3_DIR = PROJECT_ROOT / "Figure 3"
 OUT_DIR = FIG3_DIR / "out_fig3"
