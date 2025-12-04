@@ -50,7 +50,7 @@ from pytensor.compile import Mode
 # Paths – EDIT THESE IF YOUR LAYOUT CHANGES
 # ---------------------------------------------------------------------
 PROJECT_ROOT = Path(
-    "/Users/seung-hwan.kim/Desktop/Bayesian_Hybrid_OU_Branching_Precision_Medicine"
+    "/Bayesian_Hybrid_OU_Branching_Precision_Medicine"
 )
 FIG1_DIR = PROJECT_ROOT / "Figure 1"
 OUT_DIR = FIG1_DIR / "out_compare_real"
