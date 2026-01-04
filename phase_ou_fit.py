@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 16 06:45:06 2025
-
-@author: seung-hwan.kim
-"""
 
 #phase_ou_fit.py
 
