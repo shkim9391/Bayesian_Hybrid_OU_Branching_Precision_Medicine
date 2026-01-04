@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 14 18:38:37 2025
-
-@author: seung-hwan.kim
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
 Figure 3 – Patient-level OU calibration and clonal dynamics
 
 Inputs
