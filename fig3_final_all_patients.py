@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 14 18:38:37 2025
-
-@author: seung-hwan.kim
-"""
 
 #fig3_final_all_patients.py
 
