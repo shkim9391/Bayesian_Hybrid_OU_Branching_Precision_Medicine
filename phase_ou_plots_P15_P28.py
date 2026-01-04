@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 16 06:52:29 2025
-
-@author: seung-hwan.kim
-"""
 
 #phase_ou_plots_P15_P28.py
 
