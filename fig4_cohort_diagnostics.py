@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 14 22:45:18 2025
-
-@author: seung-hwan.kim
-"""
 
 #fig4_cohort_diagnostics.py
 
