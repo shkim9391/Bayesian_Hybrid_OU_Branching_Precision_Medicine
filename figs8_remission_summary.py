@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 15 20:16:59 2025
 
-@author: seung-hwan.kim
-"""
 #figs8_remission_summary.py for Supplementary Figure S8 and Table S2
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 import arviz as az
 import pandas as pd
