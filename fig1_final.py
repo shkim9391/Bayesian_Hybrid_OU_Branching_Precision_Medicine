@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 14 18:01:31 2025
-
-@author: seung-hwan.kim
-"""
 
 """
 Figure 1 – OU calibration method comparison (KMT2A longitudinal cohort)
