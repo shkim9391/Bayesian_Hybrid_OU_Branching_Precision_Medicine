@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 14 17:34:05 2025
-
-@author: seung-hwan.kim
-"""
-
-"""
 Figure 2 (Bayesian), fully reproducible:
 
 Inputs
