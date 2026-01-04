@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Dec 15 00:28:37 2025
-
-@author: seung-hwan.kim
-"""
-
 # export_and_qc_series.py
 
 """
