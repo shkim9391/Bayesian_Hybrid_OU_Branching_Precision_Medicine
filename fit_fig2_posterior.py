@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Dec 15 13:11:58 2025
-
-@author: seung-hwan.kim
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 """
 fit_fig2_posterior.py
