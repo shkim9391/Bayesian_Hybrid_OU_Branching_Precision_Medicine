@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 16 08:34:43 2025
 
-@author: seung-hwan.kim
-"""
 #make_S9_table.py
 
 import numpy as np
