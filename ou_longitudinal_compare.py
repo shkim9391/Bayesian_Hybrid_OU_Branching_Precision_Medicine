@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 10 16:50:48 2025
-
-@author: seung-hwan.kim
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 """
 ou_longitudinal_compare.py
