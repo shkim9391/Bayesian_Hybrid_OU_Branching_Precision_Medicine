@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# export_and_qc_series.py
-
 """
 Deterministically generate Supplementary Data S6 (series_auto.csv) and
 Supplementary Data S7 (series_auto_debug.csv) from Supplementary Data S1
