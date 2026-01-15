@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-#make_S9_table.py
-
 import numpy as np
 import pandas as pd
 import arviz as az
