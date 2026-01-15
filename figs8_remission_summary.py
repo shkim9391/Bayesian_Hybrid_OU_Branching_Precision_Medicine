@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-#figs8_remission_summary.py for Supplementary Figure S8 and Table S2
-
 import arviz as az
 import pandas as pd
 import numpy as np
