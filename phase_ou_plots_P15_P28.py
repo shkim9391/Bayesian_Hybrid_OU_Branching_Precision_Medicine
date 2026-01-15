@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-#phase_ou_plots_P15_P28.py
-
 import numpy as np
 import pandas as pd
 import arviz as az
