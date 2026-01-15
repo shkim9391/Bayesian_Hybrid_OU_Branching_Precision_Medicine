@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """
 Figure 1 – OU calibration method comparison (KMT2A longitudinal cohort)
 
