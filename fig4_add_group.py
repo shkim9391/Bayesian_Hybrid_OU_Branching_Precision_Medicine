@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-#fig4_add_group.py
-
 """
 Add clinical group labels to cohort_diagnostics.csv using Clinical_Data
 (Ahlgren et al. 2025 Nat Commun) as the canonical source.
