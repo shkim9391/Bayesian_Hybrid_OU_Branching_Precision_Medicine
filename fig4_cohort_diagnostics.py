@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-#fig4_cohort_diagnostics.py
-
 """
 Figure 4 – Cohort-level model diagnostics for Bayesian OU(-Branching) fits
 
