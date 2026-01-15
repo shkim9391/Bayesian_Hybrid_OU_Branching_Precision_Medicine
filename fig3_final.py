@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Figure 3 – Patient-level OU calibration and clonal dynamics
 
