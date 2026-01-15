@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """
 ou_longitudinal_compare.py
 OU calibration across longitudinal patients (KMT2A cohort)
