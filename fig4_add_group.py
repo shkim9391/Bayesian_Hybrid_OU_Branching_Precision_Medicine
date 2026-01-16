@@ -31,7 +31,7 @@ PROJECT_ROOT = Path(
     "/Users/seung-hwan.kim/Desktop/Bayesian_Hybrid_OU_Branching_Precision_Medicine"
 )
 
-CLINICAL_PATH = PROJECT_ROOT / "kmt2a_clinical_data.xlsx"
+CLINICAL_PATH = PROJECT_ROOT / "kmt2a_clinical_clean.xlsx"
 FIG4_DIR = PROJECT_ROOT / "Figure 4"
 FIG4_DIR.mkdir(parents=True, exist_ok=True)
 
