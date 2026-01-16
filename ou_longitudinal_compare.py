@@ -1,7 +1,7 @@
 """
 ou_longitudinal_compare.py
 OU calibration across longitudinal patients (KMT2A cohort)
-- Input: kmt2a_longitudinal_samples.xlsx with columns: Patient, Group, Day, ...
+- Input: kmt2a_longitudinal_clean.xlsx with columns: Patient, Group, Day, ...
 - Output: out_compare_real/ou_methods_comparison_real.csv + plots + ranking
 """
 
