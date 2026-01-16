@@ -4,7 +4,7 @@ Figure 2 (Bayesian), fully reproducible:
 Inputs
 ------
 1) Clinical metadata:
-   kmt2a_clinical_data.xlsx
+   kmt2a_clinical_clean.xlsx
 
 2) Bayesian OU–Branching posterior:
    posterior.nc (ArviZ InferenceData with r_raw, theta_raw, sigma_raw)
@@ -37,7 +37,7 @@ PROJECT_ROOT = Path("/Bayesian_Hybrid_OU_Branching_Precision_Medicine")
 FIG2_DIR = PROJECT_ROOT / "Figure 2"
 OUT_DIR = FIG2_DIR / "out_bayes_real"
 
-CLIN_PATH = FIG2_DIR / "kmt2a_clinical_data.xlsx"
+CLIN_PATH = FIG2_DIR / "kmt2a_clinical_clean.xlsx"
 IDATA_PATH = OUT_DIR / "posterior.nc"
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
