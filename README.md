@@ -1,2 +1,9 @@
 # Bayesian_Hybrid_OU_Branching_Precision_Medicine
 All longitudinal phenotypic and clonal data used in this study are provided in the Supplementary Data files accompanying this article. The cleaned and standardized dataset (kmt2a_longitudinal_clean.xlsx), as well as all intermediate data products supporting Figures 1–4 and Supplementary Figures S1–S7, are available in Supplementary Data S1–S8. No additional restrictions apply.
+
+# Repository layout 
+repo/
+  data/
+  scripts/
+  results/
+  figures/
