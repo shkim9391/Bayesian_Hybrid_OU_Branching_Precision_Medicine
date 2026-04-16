@@ -4,8 +4,8 @@ Add clinical group labels to cohort_diagnostics.csv using Clinical_Data
 
 Inputs
 ------
-1) Figure 4/cohort_diagnostics.csv
-   (created by fig4_cohort_diagnostics.py)
+1) Figure 5/cohort_diagnostics.csv
+   (created by fig5_cohort_diagnostics.py)
 
 2) kmt2a_clinical_data.xlsx
    - Sheet "Clinical_Data" (header row at index 3) with columns:
@@ -13,11 +13,11 @@ Inputs
 
 Output
 ------
-1) Figure 4/kmt2a_cohort_diagnostics.csv
+1) Figure 5/kmt2a_cohort_diagnostics.csv
    Same as cohort_diagnostics.csv, plus a 'group' column.
 
 This file is used by the R script:
-  fig4_model_diagnostics_bayesian_ou_branching_cohort.R
+  fig5_model_diagnostics_bayesian_ou_branching_cohort.R
 """
 
 from pathlib import Path
