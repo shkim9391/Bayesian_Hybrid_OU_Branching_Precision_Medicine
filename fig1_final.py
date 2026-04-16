@@ -1,5 +1,5 @@
 """
-Figure 1 – OU calibration method comparison (KMT2A longitudinal cohort)
+Figure 2 – OU calibration method comparison (KMT2A longitudinal cohort)
 
 From-scratch pipeline:
 
@@ -15,7 +15,7 @@ Outputs
    Per-patient OU parameter estimates for each calibration method:
    columns: Patient_ID, method, mu, theta, sigma
 
-2) Figure1_calimethod_comparison_95CI.png / .pdf
+2) Figure2_calimethod_comparison_95CI.png / .pdf
    Cohort-level mean ± 95% CI for mu, theta, sigma across methods.
 
 The script is self-contained and uses pure-Python Metropolis for the
@@ -44,7 +44,7 @@ from pytensor.compile import Mode
 PROJECT_ROOT = Path(
     "/Bayesian_Hybrid_OU_Branching_Precision_Medicine"
 )
-FIG1_DIR = PROJECT_ROOT / "Figure 1"
+FIG1_DIR = PROJECT_ROOT / "Figure 2"
 OUT_DIR = FIG1_DIR / "out_compare_real"
 
 EXCEL_PATH = PROJECT_ROOT / "kmt2a_longitudinal_clean.xlsx"
@@ -367,13 +367,13 @@ def plot_figure1(df: pd.DataFrame, out_dir: Path) -> None:
         ax.set_ylabel(p)
         ax.set_title(p, fontweight="bold", fontsize=10)
 
-    out_png = out_dir / "Figure1_calimethod_comparison_95CI.png"
-    out_pdf = out_dir / "Figure1_calimethod_comparison_95CI.pdf"
+    out_png = out_dir / "Figure2_calimethod_comparison_95CI.png"
+    out_pdf = out_dir / "Figure2_calimethod_comparison_95CI.pdf"
     fig.savefig(out_png, bbox_inches="tight")
     fig.savefig(out_pdf, bbox_inches="tight")
     plt.close(fig)
 
-    print("[+] Saved Figure 1 →")
+    print("[+] Saved Figure 2 →")
     print("    ", out_png)
     print("    ", out_pdf)
 
@@ -413,7 +413,7 @@ def main():
     df.to_csv(csv_path, index=False)
     print(f"[+] Saved OU calibration table → {csv_path}")
 
-    # 4) Plot Figure 1
+    # 4) Plot Figure 2
     plot_figure1(df, OUT_DIR)
 
     print("\n[SUMMARY] Parameter coverage by method:")
