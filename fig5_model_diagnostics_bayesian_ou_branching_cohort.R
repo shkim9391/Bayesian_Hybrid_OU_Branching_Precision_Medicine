@@ -1,7 +1,7 @@
 ## ============================================================
-## Figure 4: Model diagnostics for Bayesian OU–Branching cohort
+## Figure 5: Model diagnostics for Bayesian OU–Branching cohort
 ## Input: kmt2a_cohort_diagnostics.csv
-## Output: Figure4_model_diagnostics.(png|pdf)
+## Output: Figure5_model_diagnostics.(png|pdf)
 ## @Author: seung-hwan.kim
 ## ============================================================
 
@@ -36,7 +36,7 @@ diag_df <- diag_df %>%
   )
 
 # Global plotting theme ----------------------------------------------------
-theme_fig4 <- theme_bw(base_size = 11) +
+theme_fig5 <- theme_bw(base_size = 11) +
   theme(
     plot.title   = element_text(hjust = 0.5, face = "bold"),
     axis.title.x = element_text(margin = margin(t = 6)),
@@ -56,7 +56,7 @@ pA <- ggplot(diag_df_clean, aes(x = group, y = rmse)) +
     y = "RMSE",
     title = "A. RMSE by clinical group"
   ) +
-  theme_fig4
+  theme_fig5
 
 # -------------------------------------------------------------------------
 # Panel B: Posterior predictive coverage (95% band) by group
@@ -72,7 +72,7 @@ pB <- ggplot(diag_df_clean, aes(x = group, y = ppc_95)) +
     y = "Coverage of 95% PPC band",
     title = "B. Posterior predictive coverage"
   ) +
-  theme_fig4
+  theme_fig5
 
 # -------------------------------------------------------------------------
 # Panel C: Bayesian R^2 distribution across patients
@@ -88,7 +88,7 @@ pC <- ggplot(diag_df_clean, aes(x = r2_bayes)) +
     y = "Number of patients",
     title = "C. Bayesian model fit"
   ) +
-  theme_fig4 +
+  theme_fig5 +
   theme(axis.text.x = element_text(angle = 0, hjust = 0.5))
 
 # -------------------------------------------------------------------------
@@ -117,7 +117,7 @@ pD <- ggplot(cor_df, aes(x = metric1, y = metric2, fill = rho)) +
     y = NULL,
     title = "D. Spearman correlation among diagnostics"
   ) +
-  theme_fig4 +
+  theme_fig5 +
   theme(
     axis.text.x = element_text(angle = 30, hjust = 1),
     axis.text.y = element_text(angle = 0, hjust = 1)
@@ -126,12 +126,12 @@ pD <- ggplot(cor_df, aes(x = metric1, y = metric2, fill = rho)) +
 # -------------------------------------------------------------------------
 # Combine into 2x2 layout and export
 # -------------------------------------------------------------------------
-fig4 <- (pA | pB) / (pC | pD)
+fig5 <- (pA | pB) / (pC | pD)
 
 # Save PNG (for manuscript submission)
 ggsave(
-  filename = "Figure4_model_diagnostics.png",
-  plot     = fig4,
+  filename = "Figure5_model_diagnostics.png",
+  plot     = fig5,
   width    = 8.5,   # inches
   height   = 6.5,
   dpi      = 300
@@ -139,8 +139,8 @@ ggsave(
 
 # Save PDF (for vector graphics)
 ggsave(
-  filename = "Figure4_model_diagnostics.pdf",
-  plot     = fig4,
+  filename = "Figure5_model_diagnostics.pdf",
+  plot     = fig5,
   width    = 8.5,
   height   = 6.5
 )
