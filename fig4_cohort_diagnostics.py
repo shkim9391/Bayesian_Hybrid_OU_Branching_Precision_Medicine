@@ -1,5 +1,5 @@
 """
-Figure 4 – Cohort-level model diagnostics for Bayesian OU(-Branching) fits
+Figure 5 – Cohort-level model diagnostics for Bayesian OU(-Branching) fits
 
 Inputs
 ------
@@ -15,14 +15,14 @@ Inputs
      Patient_ID and Group; this sheet defines the canonical patient
      cohort (including P28, P68, P135, P136).
 
-3) Patient-level OU posterior files from Figure 3:
-   Figure 3/out_fig3/<Patient_ID>_ou_posterior.nc
+3) Patient-level OU posterior files from Figure 4:
+   Figure 4/out_fig4/<Patient_ID>_ou_posterior.nc
    Each is an ArviZ InferenceData with posterior variables:
      mu, theta, sigma
 
 Outputs
 -------
-1) Figure_4/cohort_diagnostics.csv
+1) Figure_5/cohort_diagnostics.csv
    Columns:
      Patient_ID, n_timepoints, rmse, ppc_95, r2_bayes, mean_loglik
 
@@ -45,12 +45,12 @@ PROJECT_ROOT = Path(
 
 EXCEL_PATH    = PROJECT_ROOT / "kmt2a_longitudinal_clean.xlsx"
 CLINICAL_PATH = PROJECT_ROOT / "kmt2a_clinical_data.xlsx"
-FIG3_OUT_DIR  = PROJECT_ROOT / "Figure 3" / "out_fig3"
-FIG4_DIR      = PROJECT_ROOT / "Figure 4"
-FIG4_DIR.mkdir(parents=True, exist_ok=True)
+FIG4_OUT_DIR  = PROJECT_ROOT / "Figure 4" / "out_fig4"
+FIG5_DIR      = PROJECT_ROOT / "Figure 5"
+FIG5_DIR.mkdir(parents=True, exist_ok=True)
 
 SERIES_SHEET = "Series"
-OUT_CSV = FIG4_DIR / "cohort_diagnostics.csv"
+OUT_CSV = FIG5_DIR / "cohort_diagnostics.csv"
 
 N_PPC = 500        # number of posterior predictive paths per patient
 RANDOM_SEED = 123  # for reproducibility
@@ -239,8 +239,8 @@ def compute_cohort_diagnostics():
 
     # patients for which an OU posterior exists
     posterior_patients = set()
-    if FIG3_OUT_DIR.exists():
-        for p in FIG3_OUT_DIR.glob("*_ou_posterior.nc"):
+    if FIG4_OUT_DIR.exists():
+        for p in FIG4_OUT_DIR.glob("*_ou_posterior.nc"):
             name = p.name.split("_ou_posterior.nc")[0]
             posterior_patients.add(name)
 
@@ -281,7 +281,7 @@ def compute_cohort_diagnostics():
         x = sub["value"].to_numpy(float)
         n_t = len(t)
 
-        post_file = FIG3_OUT_DIR / f"{pid_str}_ou_posterior.nc"
+        post_file = FIG4_OUT_DIR / f"{pid_str}_ou_posterior.nc"
         if (n_t < 2) or (not post_file.exists()):
             # include patient, but diagnostics cannot be computed
             rmse = ppc_95 = r2_bayes = mean_ll = np.nan
