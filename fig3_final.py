@@ -1,5 +1,5 @@
 """
-Figure 2 (Bayesian), fully reproducible:
+Figure 3 (Bayesian), fully reproducible:
 
 Inputs
 ------
@@ -11,12 +11,12 @@ Inputs
 
 Outputs
 -------
-1) fig2_group_param_table_with_hdi.csv
+1) fig3_group_param_table_with_hdi.csv
    Columns:
      Group, Theta_Mean, Sigma_Mean, R_Mean, DriftToNoise,
      r_hdi_low, r_hdi_high, dtn_hdi_low, dtn_hdi_high
 
-2) Figure2_Bayesian_composite_CI_exact.{png,pdf}
+2) Figure3_Bayesian_composite_CI_exact.{png,pdf}
    Two-panel Nature-style figure:
      A: Mean r with 95% HDI
      B: Drift-to-noise (σ²/θ) with 95% HDI
@@ -34,7 +34,7 @@ from matplotlib.patches import Rectangle
 # 0. Paths – EDIT THESE IF YOUR LAYOUT CHANGES
 # ---------------------------------------------------------------------
 PROJECT_ROOT = Path("/Bayesian_Hybrid_OU_Branching_Precision_Medicine")
-FIG2_DIR = PROJECT_ROOT / "Figure 2"
+FIG2_DIR = PROJECT_ROOT / "Figure 3"
 OUT_DIR = FIG2_DIR / "out_bayes_real"
 
 CLIN_PATH = FIG2_DIR / "kmt2a_clinical_clean.xlsx"
@@ -160,12 +160,12 @@ summary_df = pd.DataFrame({
     "dtn_hdi_high": dtn_high,
 })
 
-table_path = OUT_DIR / "fig2_group_param_table_with_hdi.csv"
+table_path = OUT_DIR / "fig3_group_param_table_with_hdi.csv"
 summary_df.to_csv(table_path, index=False)
 print("Saved group parameter table to:\n  ", table_path)
 
 # ---------------------------------------------------------------------
-# 6. Plot Figure 2 – Nature-style minimal aesthetic
+# 6. Plot Figure 3 – Nature-style minimal aesthetic
 # ---------------------------------------------------------------------
 plt.rcParams.update({
     "font.family": "Arial",
@@ -225,8 +225,8 @@ ax2.set_xticklabels(group_order, rotation=35, ha="right")
 ax2.set_ylabel("Drift-to-noise (σ²/θ)")
 ax2.set_title("B.  Drift-to-noise by group (95% HDI)", fontweight="bold", fontsize=10)
 
-out_png = OUT_DIR / "Figure2_Bayesian_composite_CI_exact.png"
-out_pdf = OUT_DIR / "Figure2_Bayesian_composite_CI_exact.pdf"
+out_png = OUT_DIR / "Figure3_Bayesian_composite_CI_exact.png"
+out_pdf = OUT_DIR / "Figure3_Bayesian_composite_CI_exact.pdf"
 fig.savefig(out_png, dpi=300, bbox_inches="tight")
 fig.savefig(out_pdf, bbox_inches="tight")
 
