@@ -1,5 +1,5 @@
 """
-Figure 3 – Patient-level OU calibration and clonal dynamics
+Figure 4 – Patient-level OU calibration and clonal dynamics
 
 Inputs
 ------
@@ -15,10 +15,10 @@ Inputs
 
 Outputs
 -------
-1) out_fig3/P15_ou_posterior.nc
+1) out_fig4/P15_ou_posterior.nc
    ArviZ InferenceData with OU posterior samples for the trait series.
 
-2) out_fig3/Figure3_P15_pub.png / .pdf
+2) out_fig4/Figure4_P15_pub.png / .pdf
    Three-panel Nature-style figure:
      A. Avg trait vs time with posterior mean and 95% predictive band
      B. Clone count vs time (step plot)
@@ -49,8 +49,8 @@ from pytensor.compile import Mode
 PROJECT_ROOT = Path(
     "/Bayesian_Hybrid_OU_Branching_Precision_Medicine"
 )
-FIG3_DIR = PROJECT_ROOT / "Figure 3"
-OUT_DIR = FIG3_DIR / "out_fig3"
+FIG3_DIR = PROJECT_ROOT / "Figure 4"
+OUT_DIR = FIG4_DIR / "out_fig4"
 
 EXCEL_PATH = PROJECT_ROOT / "kmt2a_longitudinal_clean.xlsx"
 SERIES_SHEET = "Series"
@@ -265,16 +265,16 @@ def ou_mean_trajectories(t, x0, idata, n_traj=N_OVERLAY, seed=RANDOM_SEED):
 
 
 # ---------------------------------------------------------------------
-# Figure 3 construction
+# Figure 4 construction
 # ---------------------------------------------------------------------
 def make_figure3(
     series_df: pd.DataFrame,
     patient_id: str,
     out_dir: Path,
-    out_stem: str = "Figure3_P15_pub",
+    out_stem: str = "Figure4_P15_pub",
 ):
     """
-    Build the three-panel Figure 3 for a given patient.
+    Build the three-panel Figure 4 for a given patient.
 
     Parameters
     ----------
@@ -426,7 +426,7 @@ def make_figure3(
     fig.savefig(out_pdf, bbox_inches="tight")
     plt.close(fig)
 
-    print("[+] Saved Figure 3 →")
+    print("[+] Saved Figure 4 →")
     print("    ", out_png)
     print("    ", out_pdf)
 
@@ -436,7 +436,7 @@ def make_figure3(
 # ---------------------------------------------------------------------
 def main():
     series_df = load_series(EXCEL_PATH, sheet_name=SERIES_SHEET)
-    make_figure3(series_df, patient_id=PATIENT_ID, out_dir=OUT_DIR)
+    make_figure4(series_df, patient_id=PATIENT_ID, out_dir=OUT_DIR)
 
 
 if __name__ == "__main__":
