@@ -167,4 +167,8 @@ Additional packages may be required depending on the exact modeling code used in
 
 This repository is designed for reproducibility of the PLOS ONE submission using processed analysis-ready data. The files provided here are the processed inputs and derived outputs used to generate the figures, supplementary figures, and supporting tables included with the manuscript.
 
+DOI
+
+10.5281/zenodo.19618928
+
 [![DOI](https://zenodo.org/badge/1097191765.svg)](https://doi.org/10.5281/zenodo.19618927)
