@@ -1,0 +1,48 @@
+Patient_ID,Group,group_index,variable_suffix,z_mu_variable,mu_variable
+P1,Remission,3,P1,z_mu_P1,mu_P1
+P100,Late,2,P100,z_mu_P100,mu_P100
+P108,Remission,3,P108,z_mu_P108,mu_P108
+P11,Very early,4,P11,z_mu_P11,mu_P11
+P110,Early,0,P110,z_mu_P110,mu_P110
+P12,Very early,4,P12,z_mu_P12,mu_P12
+P121,Early,0,P121,z_mu_P121,mu_P121
+P123,Very early,4,P123,z_mu_P123,mu_P123
+P124,Early,0,P124,z_mu_P124,mu_P124
+P125,Early,0,P125,z_mu_P125,mu_P125
+P126,Very early,4,P126,z_mu_P126,mu_P126
+P127,Very early,4,P127,z_mu_P127,mu_P127
+P130,Early,0,P130,z_mu_P130,mu_P130
+P133,Early,0,P133,z_mu_P133,mu_P133
+P137,Early,0,P137,z_mu_P137,mu_P137
+P138,Early,0,P138,z_mu_P138,mu_P138
+P15,Remission,3,P15,z_mu_P15,mu_P15
+P16,Remission,3,P16,z_mu_P16,mu_P16
+P17,Early,0,P17,z_mu_P17,mu_P17
+P19,Remission,3,P19,z_mu_P19,mu_P19
+P2,Remission,3,P2,z_mu_P2,mu_P2
+P22,Early,0,P22,z_mu_P22,mu_P22
+P23,Early,0,P23,z_mu_P23,mu_P23
+P24,Late,2,P24,z_mu_P24,mu_P24
+P26,Remission,3,P26,z_mu_P26,mu_P26
+P27,Remission,3,P27,z_mu_P27,mu_P27
+P28,Very early/refractory,5,P28,z_mu_P28,mu_P28
+P29,Remission,3,P29,z_mu_P29,mu_P29
+P3,Early,0,P3,z_mu_P3,mu_P3
+P30,Late,2,P30,z_mu_P30,mu_P30
+P32,Late,2,P32,z_mu_P32,mu_P32
+P47,Early,0,P47,z_mu_P47,mu_P47
+P56,Early,0,P56,z_mu_P56,mu_P56
+P57,Early,0,P57,z_mu_P57,mu_P57
+P58,Early,0,P58,z_mu_P58,mu_P58
+P59,Late,2,P59,z_mu_P59,mu_P59
+P63,Early,0,P63,z_mu_P63,mu_P63
+P68,Early/refractory,1,P68,z_mu_P68,mu_P68
+P69,Early,0,P69,z_mu_P69,mu_P69
+P7,Remission,3,P7,z_mu_P7,mu_P7
+P70,Early,0,P70,z_mu_P70,mu_P70
+P77,Early,0,P77,z_mu_P77,mu_P77
+P8,Remission,3,P8,z_mu_P8,mu_P8
+P83,Late,2,P83,z_mu_P83,mu_P83
+P89,Very early,4,P89,z_mu_P89,mu_P89
+P95,Late,2,P95,z_mu_P95,mu_P95
+P99,Late,2,P99,z_mu_P99,mu_P99
