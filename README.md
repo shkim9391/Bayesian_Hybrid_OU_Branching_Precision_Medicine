@@ -290,7 +290,7 @@ All preprocessing scripts, simulation workflows, Bayesian calibration routines, 
 
 A permanently archived version of the analysis pipeline is available through Zenodo:
 
-DOI: 10.5281/zenodo.19618927
+[DOI: 10.5281/zenodo.19618927](https://doi.org/10.5281/zenodo.21447281)
 
 ## Citation
 
