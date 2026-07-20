@@ -1,0 +1,16 @@
+setting,value
+script,06_fit_ou_direct_transition_posterior.py
+random_seed,13
+draws,2000
+tune,2500
+chains,4
+target_accept,0.97
+x_observations,294
+x_patients_total,52
+patients_modeled,47
+groups,6
+valid_transitions,242
+x_mean,0.43816326530612243
+x_sd,0.3855389745518816
+x_min,0.05
+x_max,1.0
