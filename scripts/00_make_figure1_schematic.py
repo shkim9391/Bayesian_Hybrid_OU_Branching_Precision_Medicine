@@ -46,12 +46,12 @@ DARK = "#1F1F1F"
 # ----------------------------
 PROJECT_ROOT = (
     Path.home()
-    scripts/
+    /scripts/ "00_make_figure1_schematic.py"
 )
 
 FIGURE_1_DIR = (
     PROJECT_ROOT
-    outputs/ "Figure_1"
+    /outputs/ "Figure_1"
 )
 
 FIGURE_1_DIR.mkdir(
