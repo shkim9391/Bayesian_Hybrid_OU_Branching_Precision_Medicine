@@ -1,0 +1,312 @@
+Patient_ID,Group,Disease,Day,Sample name,Type,Tissue,Material,KMT2A-fusion detected,Rescued Samples,ClinicalData,Leukemic Cells Detected at CR,t_years,x_value,n_value
+P1,Remission,ALL,0,P1-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P1,Remission,ALL,10,P1-d10,Longitudinal,PB,Pellet,Yes,No,-,No,0.027378507871321,0.5,2
+P1,Remission,ALL,17,P1-d17,Longitudinal,BM,"Trizol, PTA",No,No,-,No,0.0465434633812457,0.1,0
+P1,Remission,ALL,45,P1-d45,Longitudinal,BM,DNA,No,No,CR,No,0.123203285420945,0.05,0
+P1,Remission,ALL,101,P1-d101,Longitudinal,PB,Pellet,No,No,-,No,0.276522929500342,0.1,0
+P1,Remission,ALL,172,P1-d172,Longitudinal,BM,DNA,No,No,-,No,0.470910335386721,0.1,0
+P1,Remission,ALL,227,P1-d227,Germline,BM,DNA,No,No,CR,No,0.621492128678987,0.05,0
+P100,Late,AML,0,P100-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P100,Late,AML,0,P100-d429,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P100,Late,AML,372,P100-d372,Relapse1,BM,DNA,-,-,-,-,1.01848049281314,1,0
+P108,Remission,AML,0,P108-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P108,Remission,AML,22,P108-d22,Germline,BM,Pellet,No,No,mrd15,No,0.0602327173169062,0.15,1
+P108,Remission,AML,33,P108-d33,Longitudinal,BM,Trizol,No,No,-,No,0.0903490759753593,0.1,0
+P108,Remission,AML,40,P108-d40,Longitudinal,BM,Trizol,No,No,-,No,0.109514031485284,0.1,0
+P108,Remission,AML,124,P108-d124,Longitudinal,BM,Trizol,No,No,-,No,0.339493497604381,0.1,0
+P11,Very early,ALL,0,P11-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P11,Very early,ALL,5,P11-d5_pre,Longitudinal,PB,DNA,Yes,No,-,No,0.0136892539356605,0.5,2
+P11,Very early,ALL,14,P11-d14,Longitudinal,BM,DNA,Yes,No,mrd15,No,0.0383299110198494,0.15,2
+P11,Very early,ALL,29,P11-d29,Longitudinal,BM,Glass Slide,Yes,No,mrd29,No,0.0793976728268309,0.29,2
+P11,Very early,ALL,36,P11-d36,Longitudinal,BM,Glass Slide,Yes,No,-,No,0.0985626283367557,0.5,2
+P11,Very early,ALL,43,P11-d43,Longitudinal,BM,DNA,Yes,No,-,No,0.11772758384668,0.5,2
+P11,Very early,ALL,61,P11-d61,Longitudinal,BM,Ficoll,No,No,CR,No,0.167008898015058,0.05,0
+P11,Very early,ALL,82,P11-d82,Germline,BM,DNA,No,No,-,No,0.224503764544832,0.1,0
+P11,Very early,ALL,96,P11-d96,Longitudinal,BM,Ficoll,No,No,-,No,0.262833675564682,0.1,0
+P11,Very early,ALL,208,P11-d208,Relapse1,BM,Ficoll,Yes,No,Relapse,No,0.569472963723477,1,2
+P11,Very early,ALL,223,P11-d223,Longitudinal,BM,Ficoll,Yes,No,-,No,0.610540725530459,0.5,2
+P110,Early,AML,0,P110-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P110,Early,AML,22,P110-d22,Longitudinal,BM,Viable cells,No,No,mrd15,No,0.0602327173169062,0.15,1
+P110,Early,AML,29,P110-d29,Longitudinal,BM,Trizol,No,Yes,-,No,0.0793976728268309,0.1,0
+P110,Early,AML,36,P110-d36,Longitudinal,BM,Viable cells,Yes,No,"tp2, CR",Yes,0.0985626283367557,0.05,2
+P110,Early,AML,76,P110-d76,Longitudinal,PB,Trizol,No,No,-,No,0.20807665982204,0.1,0
+P110,Early,AML,133,P110-d133,Germline,BM,Pellet,No,No,-,No,0.364134154688569,0.1,0
+P110,Early,AML,162,P110-d162,Longitudinal,BM,Trizol,Yes,No,-,Yes,0.4435318275154,0.5,2
+P110,Early,AML,190,P110-d190,Longitudinal,BM,Viable cells,Yes,No,-,Yes,0.520191649555099,0.5,2
+P110,Early,AML,209,P110-d209,Relapse1,BM,Viable cells,No,Yes,Relapse,No,0.572210814510609,1,0
+P110,Early,AML,246,P110-d246,Longitudinal,BM,Pellet,No,No,-,No,0.673511293634497,0.1,0
+P110,Early,AML,272,P110-d272,Longitudinal,PB,Trizol,No,No,-,No,0.744695414099932,0.1,0
+P110,Early,AML,287,P110-d287,Relapse2,PB,Fix,Yes,No,Relapse,Yes,0.785763175906913,1,2
+P12,Very early,ALL,0,P12-d0,Diagnosis,PB,DNA,Yes,No,Diagnosis,No,0,1,2
+P12,Very early,ALL,15,P12-d15,Longitudinal,BM,Trizol,Yes,No,mrd15,No,0.0410677618069815,0.15,2
+P12,Very early,ALL,35,P12-d35,Longitudinal,BM,Trizol,Yes,No,"mrd29, CR",Yes,0.0958247775496235,0.29,2
+P12,Very early,ALL,48,P12-d48,Germline,BM,Pellet,Yes,No,-,Yes,0.131416837782341,0.5,2
+P12,Very early,ALL,95,P12-d95,Longitudinal,BM,Pellet,Yes,No,-,Yes,0.26009582477755,0.5,2
+P12,Very early,ALL,152,P12-d152,Longitudinal,BM,Pellet,Yes,No,-,Yes,0.416153319644079,0.5,2
+P12,Very early,ALL,175,P12-d175,Relapse1,BM,DNA,Yes,No,Relapse,No,0.479123887748118,1,2
+P12,Very early,ALL,200,P12-d200,Longitudinal,BM,DNA,No,No,-,No,0.54757015742642,0.1,0
+P12,Very early,ALL,230,P12-d230,Longitudinal,BM,Pellet,No,No,-,No,0.629705681040383,0.1,0
+P12,Very early,ALL,292,P12-d292,Longitudinal,BM,Pellet,No,No,-,No,0.799452429842574,0.1,0
+P12,Very early,ALL,341,P12-d341,Longitudinal,BM,Pellet,No,No,-,No,0.933607118412047,0.1,0
+P121,Early,ALL,0,P121-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P121,Early,ALL,622,P121-d622,Relapse1,BM,DNA,-,-,-,-,1.70294318959617,1,0
+P122,Early,ALL,424,P122-d424,Relapse1,BM,DNA,-,-,-,-,1.16084873374401,1,0
+P123,Very early,ALL,0,P123-d0,Diagnosis,PB,DNA,-,-,-,-,0,1,0
+P123,Very early,ALL,178,P123-d178,Relapse1,BM,DNA,-,-,-,-,0.487337440109514,1,0
+P124,Early,ALL,0,P124-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P124,Early,ALL,999,P124-d999,Relapse1,BM,DNA,-,-,-,-,2.73511293634497,1,0
+P125,Early,ALL,0,P125-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P125,Early,ALL,729,P125-d729,Relapse1,BM,DNA,-,-,-,-,1.9958932238193,1,0
+P126,Very early,ALL,0,P126-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P126,Very early,ALL,139,P126-d139,Relapse1,BM,DNA,-,-,-,-,0.380561259411362,1,0
+P127,Very early,ALL,0,P127-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P127,Very early,ALL,0,P127-d33,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P127,Very early,ALL,211,P127-d211,Relapse1,BM,DNA,-,-,-,-,0.577686516084873,1,0
+P128,Very early,ALL,182,P128-d182,Relapse1,BM,DNA,-,-,-,-,0.498288843258042,1,0
+P129,Very early,ALL,253,P129-d253,Relapse1,BM,DNA,-,-,-,-,0.692676249144422,1,0
+P130,Early,ALL,0,P130-d0,Diagnosis,PB,DNA,-,-,-,-,0,1,0
+P130,Early,ALL,346,P130-d346,Relapse1,BM,DNA,-,-,-,-,0.947296372347707,1,0
+P133,Early,ALL,0,P133-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P133,Early,ALL,0,P133-d15,Germline,BM,DNA,-,-,-,-,0,0.1,0
+P133,Early,ALL,472,P133-d472,Relapse1,BM,DNA,-,-,-,-,1.29226557152635,1,0
+P135,Very early/refractory,ALL,0,P135-D1,After 2 cycles of chemo,BM,DNA,-,-,-,-,0,0.1,0
+P135,Very early/refractory,ALL,0,P135-D6,"after 7 cycles of chemo, NK-cell therapy, and Haplo SCT.",BM,DNA,-,-,-,-,0,0.1,0
+P135,Very early/refractory,ALL,0,P135-G1,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P136,Very early/refractory,ALL,0,P136-D3,after 5 courses of chemo and parental NK cell infusion,BM,DNA,-,-,-,-,0,0.1,0
+P136,Very early/refractory,ALL,0,P136-G1,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P136,Very early/refractory,ALL,0,P136-d0,Diagnosis,PB,DNA,-,-,-,-,0,1,0
+P137,Early,ALL,0,P137-G1,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P137,Early,ALL,0,P137-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P137,Early,ALL,525,P137-d525,Relapse1,BM,DNA,-,-,-,-,1.43737166324435,1,0
+P138,Early,ALL,0,P138-G1,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P138,Early,ALL,0,P138-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P138,Early,ALL,351,P138-d351,Relapse1,BM,DNA,-,-,-,-,0.960985626283368,1,0
+P15,Remission,ALL,0,P15-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P15,Remission,ALL,20,P15-d20,Longitudinal,BM,Ficoll,Yes,No,mrd15,No,0.054757015742642,0.15,2
+P15,Remission,ALL,34,P15-d34,Longitudinal,BM,Ficoll,No,No,"mrd29, CR",No,0.0930869267624914,0.29,1
+P15,Remission,ALL,286,P15-d286,Longitudinal,BM,Ficoll,No,No,-,No,0.783025325119781,0.1,0
+P15,Remission,ALL,751,P15-d751,Germline,BM,DNA,No,No,-,No,2.05612594113621,0.1,0
+P16,Remission,ALL,0,P16-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P16,Remission,ALL,14,P16-d14,Longitudinal,BM,Fix,Yes,No,mrd15,No,0.0383299110198494,0.15,2
+P16,Remission,ALL,32,P16-d32,Longitudinal,BM,Glass Slide,No,Yes,"mrd29, CR",No,0.0876112251882272,0.29,1
+P16,Remission,ALL,42,P16-d42,Longitudinal,BM,DNA,Yes,No,-,Yes,0.114989733059548,0.5,2
+P16,Remission,ALL,166,P16-d166,Longitudinal,BM,BM Rests,No,No,-,No,0.454483230663929,0.1,0
+P16,Remission,ALL,510,P16-d510,Germline,BM,DNA,No,No,-,No,1.39630390143737,0.1,0
+P17,Early,ALL,0,P17-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P17,Early,ALL,14,P17-d14,Longitudinal,BM,Fix,No,Yes,"mrd15, CR",No,0.0383299110198494,0.15,1
+P17,Early,ALL,28,P17-d28,Longitudinal,BM,Fix,No,Yes,mrd29,No,0.0766598220396988,0.29,1
+P17,Early,ALL,49,P17-d49,Longitudinal,BM,Fix,No,Yes,-,No,0.134154688569473,0.1,0
+P17,Early,ALL,135,P17-d135,Longitudinal,BM,DNA,No,No,-,No,0.369609856262834,0.1,0
+P17,Early,ALL,210,P17-d210,Germline,BM,DNA,No,Yes,-,No,0.574948665297741,0.1,0
+P17,Early,ALL,238,P17-d238,Longitudinal,BM,Glass Slide,No,Yes,-,No,0.65160848733744,0.1,0
+P17,Early,ALL,281,P17-d281,Longitudinal,BM,Glass Slide,No,Yes,-,No,0.769336071184121,0.1,0
+P17,Early,ALL,301,P17-d301,Longitudinal,BM,Trizol,No,Yes,-,No,0.824093086926763,0.1,0
+P17,Early,ALL,378,P17-d378,Longitudinal,BM,Trizol,Yes,No,-,Yes,1.03490759753593,0.5,2
+P17,Early,ALL,431,P17-d431,Longitudinal,BM,"BM Rests, PTA",Yes,No,-,Yes,1.18001368925394,0.5,2
+P17,Early,ALL,470,P17-d470,Relapse1,BM,Trizol,Yes,No,Relapse,No,1.28678986995209,1,2
+P17,Early,ALL,497,P17-d497,Longitudinal,BM,Glass Slide,Yes,No,-,No,1.36071184120465,0.5,2
+P17,Early,ALL,522,P17-d522,Longitudinal,BM,Glass Slide,Yes,No,-,No,1.42915811088296,0.5,2
+P17,Early,ALL,575,P17-d575,Longitudinal,BM,Glass Slide,Yes,No,-,No,1.57426420260096,0.5,2
+P19,Remission,ALL,0,P19-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P19,Remission,ALL,14,P19-d14,Longitudinal,BM,Fix,Yes,No,mrd15,No,0.0383299110198494,0.15,2
+P19,Remission,ALL,30,P19-d30,Longitudinal,BM,Fix,Yes,No,mrd29,No,0.082135523613963,0.29,2
+P19,Remission,ALL,59,P19-d59,Longitudinal,BM,Fix,No,No,CR,No,0.161533196440794,0.05,0
+P19,Remission,ALL,178,P19-d178,Germline,BM,DNA,No,No,-,No,0.487337440109514,0.1,0
+P2,Remission,ALL,0,P2-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P2,Remission,ALL,7,P2-d7,Longitudinal,BM,Pellet,Yes,No,-,No,0.0191649555099247,0.5,2
+P2,Remission,ALL,14,P2-d14,Longitudinal,BM,Fix,Yes,No,mrd15,No,0.0383299110198494,0.15,2
+P2,Remission,ALL,32,P2-d32,Longitudinal,BM,DNA,Yes,No,mrd29,No,0.0876112251882272,0.29,2
+P2,Remission,ALL,39,P2-d39,Longitudinal,BM,"Fix, PTA",No,No,CR,No,0.106776180698152,0.05,0
+P2,Remission,ALL,45,P2-d45,Longitudinal,BM,Pellet,Yes,No,-,Yes,0.123203285420945,0.5,2
+P2,Remission,ALL,97,P2-d97,Longitudinal,BM,DNA,No,No,-,No,0.265571526351814,0.1,0
+P2,Remission,ALL,157,P2-d157,Longitudinal,BM,Trizol,No,No,-,No,0.42984257357974,0.1,0
+P2,Remission,ALL,213,P2-d213,Germline,BM,DNA,No,No,-,No,0.583162217659138,0.1,0
+P2,Remission,ALL,474,P2-d474,Longitudinal,BM,Fix,No,No,-,No,1.29774127310062,0.1,0
+P2,Remission,ALL,679,P2-d679,Longitudinal,BM,DNA,No,No,-,No,1.8590006844627,0.1,0
+P22,Early,ALL,0,P22-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P22,Early,ALL,14,P22-d14,Longitudinal,BM,Fix,No,Yes,mrd15,No,0.0383299110198494,0.15,1
+P22,Early,ALL,35,P22-d35,Longitudinal,BM,Fix,Yes,No,"mrd29, CR",Yes,0.0958247775496235,0.29,2
+P22,Early,ALL,63,P22-d63,Longitudinal,BM,Trizol,No,No,-,No,0.172484599589322,0.1,0
+P22,Early,ALL,136,P22-d136,Longitudinal,BM,Trizol,No,No,-,No,0.372347707049966,0.1,0
+P22,Early,ALL,242,P22-d242,Germline,BM,Pellet,No,No,-,No,0.662559890485969,0.1,0
+P22,Early,ALL,459,P22-d459,Relapse1 (testis),BM,"Fix, PTA",No,No,Relapse,No,1.25667351129363,1,0
+P23,Early,AML,0,P23-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P23,Early,AML,15,P23-d15,Longitudinal,BM,Trizol,Yes,No,mrd15,No,0.0410677618069815,0.15,2
+P23,Early,AML,22,P23-d22,Germline,BM,DNA,Yes,No,CR,Yes,0.0602327173169062,0.05,2
+P23,Early,AML,53,P23-d53,Longitudinal,BM,Trizol,Yes,No,tp2,Yes,0.145106091718001,0.5,2
+P23,Early,AML,62,P23-d62,Longitudinal,BM,Trizol,Yes,No,-,Yes,0.16974674880219,0.5,2
+P23,Early,AML,78,P23-d78,Longitudinal,BM,Trizol,Yes,No,-,Yes,0.213552361396304,0.5,2
+P23,Early,AML,89,P23-d89,Longitudinal,BM,"Fix, PTA",No,No,-,No,0.243668720054757,0.1,0
+P23,Early,AML,103,P23-d103,Relapse1,BM,DNA,Yes,No,Relapse,No,0.281998631074606,1,2
+P23,Early,AML,132,P23-d132,Relapse2,BM,Trizol,Yes,No,Relapse,No,0.361396303901437,1,2
+P24,Late,AML,0,P24-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P24,Late,AML,52,P24-d52,Longitudinal,BM,Glass Slide,Yes,No,"tp2, CR",Yes,0.142368240930869,0.05,2
+P24,Late,AML,80,P24-d80,Longitudinal,PB,Glass Slide,No,Yes,-,No,0.219028062970568,0.1,0
+P24,Late,AML,108,P24-d108,Germline,BM,DNA,No,Yes,-,No,0.295687885010267,0.1,0
+P24,Late,AML,171,P24-d171,Longitudinal,BM,Glass Slide,No,No,-,No,0.468172484599589,0.1,0
+P24,Late,AML,433,P24-d433,Relapse1,BM,Fix,Yes,No,Relapse,No,1.1854893908282,1,2
+P24,Late,AML,445,P24-d445,Longitudinal,BM,Pellet,Yes,No,-,No,1.21834360027379,0.5,2
+P24,Late,AML,489,P24-d489,Longitudinal,BM,Glass Slide,No,No,-,No,1.3388090349076,0.1,0
+P24,Late,AML,517,P24-d517,Longitudinal,BM,Glass Slide,No,Yes,-,No,1.4154688569473,0.1,0
+P26,Remission,ALL,0,P26-d0,Diagnosis,PB,Glass Slide,Yes,No,Diagnosis,No,0,1,2
+P26,Remission,ALL,14,P26-d14,Longitudinal,BM,"Fix, PTA",No,No,mrd15,No,0.0383299110198494,0.15,1
+P26,Remission,ALL,27,P26-d27,Longitudinal,BM,Trizol,No,No,CR,No,0.0739219712525667,0.05,0
+P26,Remission,ALL,56,P26-d56,Longitudinal,BM,Trizol,No,No,tp2,No,0.153319644079398,0.1,0
+P26,Remission,ALL,148,P26-d148,Germline,BM,DNA,No,No,-,No,0.405201916495551,0.1,0
+P26,Remission,ALL,336,P26-d336,Longitudinal,BM,Trizol,No,No,-,No,0.919917864476386,0.1,0
+P27,Remission,AML,0,P27-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P27,Remission,AML,14,P27-d14,Longitudinal,BM,Glass Slide,No,Yes,mrd15,No,0.0383299110198494,0.15,1
+P27,Remission,AML,61,P27-d61,Longitudinal,BM,Trizol,No,No,"tp2, CR",No,0.167008898015058,0.05,0
+P27,Remission,AML,117,P27-d117,Longitudinal,BM,Trizol,No,No,-,No,0.320328542094456,0.1,0
+P27,Remission,AML,1290,P27-d1290,Germline,BM,DNA,No,No,-,No,3.53182751540041,0.1,0
+P28,Very early/refractory,ALL,0,P28-d0,Diagnosis,PB,DNA,Yes,No,Diagnosis,No,0,1,2
+P28,Very early/refractory,ALL,15,P28-d15,Longitudinal,BM,Trizol,Yes,No,mrd15,No,0.0410677618069815,0.15,2
+P28,Very early/refractory,ALL,29,P28-d29,Germline,BM,DNA,Yes,No,mrd29,No,0.0793976728268309,0.29,2
+P28,Very early/refractory,ALL,42,P28-d42,Longitudinal,PB,Fix,Yes,No,-,No,0.114989733059548,0.5,2
+P28,Very early/refractory,ALL,49,P28-d49,Longitudinal,BM,Trizol,Yes,No,-,No,0.134154688569473,0.5,2
+P28,Very early/refractory,ALL,62,P28-d62,Longitudinal,BM,Trizol,Yes,No,-,No,0.16974674880219,0.5,2
+P28,Very early/refractory,ALL,93,P28-d93,Longitudinal,BM,Trizol,Yes,No,-,No,0.254620123203285,0.5,2
+P28,Very early/refractory,ALL,107,P28-d107,Longitudinal,BM,Trizol,Yes,No,-,No,0.292950034223135,0.5,2
+P28,Very early/refractory,ALL,139,P28-d139,Longitudinal,BM,Trizol,Yes,No,-,No,0.380561259411362,0.5,2
+P28,Very early/refractory,ALL,173,P28-d173,Longitudinal,BM,Pellet,Yes,No,-,No,0.473648186173854,0.5,2
+P28,Very early/refractory,ALL,208,P28-d208,Relapse1,BM,Pellet,Yes,No,Relapse,No,0.569472963723477,1,2
+P28,Very early/refractory,ALL,223,P28-d223,Longitudinal,BM,Trizol,Yes,No,-,No,0.610540725530459,0.5,2
+P28,Very early/refractory,ALL,247,P28-d247,Longitudinal,PB,DNA,Yes,No,Relapse,No,0.676249144421629,0.5,2
+P29,Remission,ALL,0,P29-d0,Diagnosis,BM,Glass Slide,Yes,No,Diagnosis,No,0,1,2
+P29,Remission,ALL,15,P29-d15,Longitudinal,BM,Trizol,Yes,No,mrd15,No,0.0410677618069815,0.15,2
+P29,Remission,ALL,32,P29-d32,Longitudinal,BM,Trizol,No,No,"mrd29, CR",No,0.0876112251882272,0.29,1
+P29,Remission,ALL,101,P29-d101,Longitudinal,BM,Pellet,No,No,-,No,0.276522929500342,0.1,0
+P29,Remission,ALL,168,P29-d168,Longitudinal,BM,Pellet,No,No,-,No,0.459958932238193,0.1,0
+P29,Remission,ALL,232,P29-d232,Longitudinal,BM,Pellet,No,No,-,No,0.635181382614648,0.1,0
+P29,Remission,ALL,526,P29-d526,Longitudinal,BM,Pellet,No,No,-,No,1.44010951403149,0.1,0
+P29,Remission,ALL,736,P29-d736,Germline,BM,Trizol,No,No,-,No,2.01505817932923,0.1,0
+P3,Early,ALL,0,P3-d0,Diagnosis,PB,Pellet,-,-,-,-,0,1,0
+P3,Early,ALL,0,P3-seq3G,Germline,BM,DNA,-,-,-,-,0,0.1,0
+P3,Early,ALL,396,P3-d396,Relapse1,BM,Trizol,-,-,-,-,1.08418891170431,1,0
+P30,Late,AML,21,P30-d21,Longitudinal,BM,Pellet,Yes,No,"mrd15, CR",Yes,0.0574948665297741,0.15,2
+P30,Late,AML,46,P30-d46,Longitudinal,BM,DNA,No,Yes,tp2,No,0.125941136208077,0.1,0
+P30,Late,AML,74,P30-d74,Longitudinal,PB,"Trizol, PTA",No,No,-,No,0.202600958247775,0.1,0
+P30,Late,AML,222,P30-d222,Germline,BM,DNA,No,Yes,-,No,0.607802874743327,0.1,0
+P30,Late,AML,400,P30-d400,Relapse1,BM,Fix,Yes,No,Relapse,No,1.09514031485284,1,2
+P30,Late,AML,438,P30-d438,Longitudinal,BM,Pellet,No,Yes,-,No,1.19917864476386,0.1,0
+P30,Late,AML,1037,P30-d1037,Relapse2,BM,DNA,Yes,No,Relapse,No,2.83915126625599,1,2
+P30,Late,AML,1742,P30-d1742,Relapse3,BM,DNA,Yes,No,Relapse,No,4.76933607118412,1,2
+P30,Late,AML,2183,P30-d2183,Relapse4,PB,DNA,Yes,No,Relapse,No,5.97672826830938,1,2
+P30,Late,AML,2408,P30-d2408,Relapse5,BM,"Fix, PTA",No,Yes,Relapse,No,6.5927446954141,1,0
+P32,Late,AML,0,P32-d0,Diagnosis,BM,Glass Slide,Yes,No,Diagnosis,No,0,1,2
+P32,Late,AML,14,P32-d14,Longitudinal,BM,Fix,Yes,No,mrd15,No,0.0383299110198494,0.15,2
+P32,Late,AML,21,P32-d21,Longitudinal,BM,Fix,Yes,No,-,No,0.0574948665297741,0.5,2
+P32,Late,AML,46,P32-d46,Longitudinal,BM,Glass Slide,No,Yes,CR,No,0.125941136208077,0.05,0
+P32,Late,AML,71,P32-d71,Longitudinal,BM,Glass Slide,No,Yes,tp2,No,0.194387405886379,0.1,0
+P32,Late,AML,97,P32-d97,Germline,BM,DNA,No,Yes,-,No,0.265571526351814,0.1,0
+P32,Late,AML,189,P32-d189,Longitudinal,BM,Glass Slide,No,Yes,-,No,0.517453798767967,0.1,0
+P32,Late,AML,683,P32-d683,Relapse1,BM,DNA,Yes,No,Relapse,No,1.86995208761123,1,2
+P32,Late,AML,742,P32-d742,Longitudinal,BM,Glass Slide,No,Yes,-,No,2.03148528405202,0.1,0
+P47,Early,ALL,0,P47-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P47,Early,ALL,0,P47-d1134,Germline,BM,DNA,-,-,-,-,0,0.1,0
+P47,Early,ALL,1024,P47-d1024,Relapse1,BM,DNA,-,-,-,-,2.80355920602327,1,0
+P56,Early,ALL,0,P56-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P56,Early,ALL,15,P56-d15,Longitudinal,BM,Viable cells,Yes,No,mrd15,No,0.0410677618069815,0.15,2
+P56,Early,ALL,95,P56-d95,Longitudinal,BM,Pellet,No,No,CR,No,0.26009582477755,0.05,0
+P56,Early,ALL,404,P56-d404,Relapse1 (CNS),BM,Viable cells,Yes,No,Relapse,No,1.10609171800137,1,2
+P56,Early,ALL,992,P56-d992,Longitudinal,BM,Pellet,No,No,-,No,2.71594798083504,0.1,0
+P56,Early,ALL,1068,P56-d1068,Longitudinal,BM,Pellet,No,No,-,No,2.92402464065708,0.1,0
+P56,Early,ALL,1252,P56-d1252,Germline,PB,Glass Slide,No,No,-,No,3.42778918548939,0.1,0
+P56,Early,ALL,1734,P56-d1734,Longitudinal,BM,Viable cells,No,No,-,No,4.74743326488706,0.1,0
+P57,Early,ALL,0,P57-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P57,Early,ALL,25,P57-d25,Longitudinal,BM,Pellet,Yes,No,mrd29,No,0.0684462696783025,0.29,2
+P57,Early,ALL,147,P57-d147,Longitudinal,BM,Pellet,No,Yes,CR,No,0.402464065708419,0.05,0
+P57,Early,ALL,217,P57-d217,Germline,BM,Glass Slide,No,No,-,No,0.594113620807666,0.1,0
+P57,Early,ALL,537,P57-d537,Relapse1,BM,DNA,Yes,No,Relapse,No,1.47022587268994,1,2
+P58,Early,ALL,0,P58-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P58,Early,ALL,14,P58-d14,Longitudinal,BM,Viable cells,Yes,No,mrd15,No,0.0383299110198494,0.15,2
+P58,Early,ALL,29,P58-d29,Longitudinal,BM,Pellet,Yes,No,mrd29,No,0.0793976728268309,0.29,2
+P58,Early,ALL,182,P58-d182,Germline,BM,DNA,Yes,No,-,Yes,0.498288843258042,0.5,2
+P58,Early,ALL,218,P58-d218,Longitudinal,BM,Pellet,Yes,No,-,Yes,0.596851471594798,0.5,2
+P58,Early,ALL,391,P58-d391,Relapse1,BM,Viable cells,Yes,No,Relapse,No,1.07049965776865,1,2
+P59,Late,AML,0,P59-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P59,Late,AML,28,P59-d28,Longitudinal,BM,Glass Slide,No,No,mrd15,No,0.0766598220396988,0.15,1
+P59,Late,AML,150,P59-d150,Longitudinal,BM,Glass Slide,No,No,-,No,0.410677618069815,0.1,0
+P59,Late,AML,199,P59-d199,Longitudinal,BM,Glass Slide,No,No,-,No,0.544832306639288,0.1,0
+P59,Late,AML,255,P59-d255,Longitudinal,BM,Glass Slide,No,No,-,No,0.698151950718686,0.1,0
+P59,Late,AML,292,P59-d292,Longitudinal,BM,Glass Slide,No,No,-,No,0.799452429842574,0.1,0
+P59,Late,AML,368,P59-d368,Germline,PB,DNA,No,No,-,No,1.00752908966461,0.1,0
+P59,Late,AML,587,P59-d587,Longitudinal,PB,Pellet,No,No,-,No,1.60711841204654,0.1,0
+P59,Late,AML,615,P59-d615,Longitudinal,PB,Pellet,No,No,-,No,1.68377823408624,0.1,0
+P59,Late,AML,660,P59-d660,Relapse1,PB,DNA,Yes,No,Relapse,No,1.80698151950719,1,2
+P59,Late,AML,685,P59-d685,Longitudinal,BM,Glass Slide,No,No,-,No,1.87542778918549,0.1,0
+P63,Early,AML,0,P63-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P63,Early,AML,16,P63-d16,Longitudinal,BM,Pellet,No,Yes,mrd15,No,0.0438056125941136,0.15,1
+P63,Early,AML,30,P63-d30,Longitudinal,BM,Pellet,No,Yes,CR,No,0.082135523613963,0.05,0
+P63,Early,AML,62,P63-d62,Longitudinal,BM,BM Rests,No,No,tp2,No,0.16974674880219,0.1,0
+P63,Early,AML,90,P63-d89,Germline,PB,Glass Slide,No,No,-,No,0.246406570841889,0.1,0
+P63,Early,AML,90,P63-d90,Longitudinal,BM,Glass Slide,No,No,-,No,0.246406570841889,0.1,0
+P63,Early,AML,118,P63-d118,Longitudinal,BM,Glass Slide,No,No,-,No,0.323066392881588,0.1,0
+P63,Early,AML,183,P63-d183,Longitudinal,BM,Pellet,No,No,-,No,0.501026694045175,0.1,0
+P63,Early,AML,240,P63-d240,Longitudinal,PB,Pellet,No,No,-,No,0.657084188911704,0.1,0
+P63,Early,AML,301,P63-d301,Longitudinal,PB,Pellet,No,Yes,-,No,0.824093086926763,0.1,0
+P63,Early,AML,302,P63-d302,Relapse1,BM,DNA,Yes,No,Relapse,No,0.826830937713895,1,2
+P63,Early,AML,331,P63-d331,Longitudinal,BM,BM Rests,No,No,-,No,0.906228610540726,0.1,0
+P63,Early,AML,342,P63-d342,Longitudinal,BM,Pellet,No,No,-,No,0.936344969199179,0.1,0
+P63,Early,AML,385,P63-d385,Longitudinal,BM,BM Rests,No,No,-,No,1.05407255304586,0.1,0
+P63,Early,AML,490,P63-d490,Longitudinal,PB,Pellet,No,No,-,No,1.34154688569473,0.1,0
+P63,Early,AML,491,P63-d491,Longitudinal,BM,Pellet,No,No,-,No,1.34428473648186,0.1,0
+P63,Early,AML,519,P63-d519,Longitudinal,PB,Pellet,No,Yes,-,No,1.42094455852156,0.1,0
+P63,Early,AML,533,P63-d533,Longitudinal,PB,Pellet,No,Yes,-,No,1.45927446954141,0.1,0
+P63,Early,AML,546,P63-d546,Relapse2,BM,Pellet,Yes,No,Relapse,No,1.49486652977413,1,2
+P68,Early,AML,0,P68-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P68,Early,AML,0,P68-seq68G,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P68,Early,AML,132,P68-d132,Relapse1,BM,DNA,-,-,-,-,0.361396303901437,1,0
+P69,Early,ALL,0,P69-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P69,Early,ALL,14,P69-d14,Longitudinal,BM,BM Rests,Yes,No,mrd15,No,0.0383299110198494,0.15,2
+P69,Early,ALL,33,P69-d33,Longitudinal,BM,BM Rests,Yes,No,mrd29,No,0.0903490759753593,0.29,2
+P69,Early,ALL,86,P69-d86,Longitudinal,BM,Pellet,No,No,-,No,0.235455167693361,0.1,0
+P69,Early,ALL,145,P69-d145,Germline,BM,BM Rests,No,No,-,No,0.396988364134155,0.1,0
+P69,Early,ALL,218,P69-d218,Longitudinal,BM,Pellet,No,No,-,No,0.596851471594798,0.1,0
+P69,Early,ALL,385,P69-d385,Relapse1,BM,DNA,Yes,No,Relapse,No,1.05407255304586,1,2
+P69,Early,ALL,401,P69-d401,Longitudinal,BM,"BM Rests, PTA",Yes,No,-,No,1.09787816563997,0.5,2
+P69,Early,ALL,426,P69-d426,Longitudinal,BM,"Glass Slide, PTA",No,Yes,-,No,1.16632443531828,0.1,0
+P69,Early,ALL,460,P69-d460,Longitudinal,BM,"Glass Slide, PTA",No,Yes,-,No,1.25941136208077,0.1,0
+P7,Remission,AML,0,P7-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P7,Remission,AML,15,P7-d15,Longitudinal,BM,Pellet,Yes,No,mrd15,No,0.0410677618069815,0.15,2
+P7,Remission,AML,26,P7-d26,Longitudinal,BM,Pellet,No,Yes,-,No,0.0711841204654346,0.1,0
+P7,Remission,AML,61,P7-d61,Germline,BM,Fix,No,No,"tp2, CR",No,0.167008898015058,0.05,0
+P7,Remission,AML,90,P7-d90,Longitudinal,BM,Pellet,No,No,-,No,0.246406570841889,0.1,0
+P7,Remission,AML,170,P7-d170,Longitudinal,BM,Trizol,No,No,-,No,0.465434633812457,0.1,0
+P70,Early,AML,0,P70-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P70,Early,AML,0,P70-seq70G,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P70,Early,AML,337,P70-d337,Relapse1,BM,DNA,-,-,-,-,0.922655715263518,1,0
+P77,Early,AML,0,P77-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P77,Early,AML,22,P77-d22,Germline,PB,BM Rests,No,Yes,mrd15,No,0.0602327173169062,0.15,1
+P77,Early,AML,22,P77-d22,Longitudinal,BM,BM Rests,No,Yes,"mrd15, CR",No,0.0602327173169062,0.15,1
+P77,Early,AML,39,P77-d39,Longitudinal,BM,Glass Slide,No,No,-,No,0.106776180698152,0.1,0
+P77,Early,AML,68,P77-d68,Longitudinal,BM,Pellet,Yes,No,tp2,Yes,0.186173853524983,0.5,2
+P77,Early,AML,95,P77-d95,Longitudinal,BM,Pellet,Yes,No,-,Yes,0.26009582477755,0.5,2
+P77,Early,AML,120,P77-d120,Relapse1,BM,"Glass Slide, PTA",Yes,No,Relapse,No,0.328542094455852,1,2
+P8,Remission,AML,0,P8-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P8,Remission,AML,21,P8-d21,Longitudinal,BM,Trizol,Yes,No,"mrd15, CR",Yes,0.0574948665297741,0.15,2
+P8,Remission,AML,53,P8-d53,Germline,BM,DNA,Yes,No,tp2,Yes,0.145106091718001,0.5,2
+P8,Remission,AML,82,P8-d82,Longitudinal,BM,Trizol,No,No,-,No,0.224503764544832,0.1,0
+P8,Remission,AML,168,P8-d168,Longitudinal,BM,Glass Slide,Yes,No,-,Yes,0.459958932238193,0.5,2
+P8,Remission,AML,315,P8-d315,Longitudinal,BM,Trizol,No,Yes,-,No,0.862422997946612,0.1,0
+P83,Late,AML,0,P83-d0,Diagnosis,BM,DNA,Yes,No,Diagnosis,No,0,1,2
+P83,Late,AML,23,P83-d23,Longitudinal,BM,Glass Slide,No,No,"mrd15, CR",No,0.0629705681040383,0.15,1
+P83,Late,AML,35,P83-d35,Longitudinal,BM,Pellet,No,Yes,-,No,0.0958247775496235,0.1,0
+P83,Late,AML,76,P83-d76,Longitudinal,BM,Pellet,No,No,tp2,No,0.20807665982204,0.1,0
+P83,Late,AML,132,P83-d132,Longitudinal,BM,Pellet,No,No,-,No,0.361396303901437,0.1,0
+P83,Late,AML,419,P83-d419,Germline,PB,Pellet,No,No,-,No,1.14715947980835,0.1,0
+P83,Late,AML,482,P83-d482,Longitudinal,PB,DNA,No,No,-,No,1.31964407939767,0.1,0
+P83,Late,AML,561,P83-d561,Relapse1,BM,Glass Slide,Yes,No,Relapse,No,1.53593429158111,1,2
+P83,Late,AML,722,P83-d722,Longitudinal,BM,BM Rests,No,No,-,No,1.97672826830938,0.1,0
+P83,Late,AML,815,P83-d815,Relapse2 (CNS),BM,BM Rests,No,No,Relapse,No,2.23134839151266,1,0
+P89,Very early,ALL,0,P89-d0,Diagnosis,PB,DNA,Yes,No,Diagnosis,No,0,1,2
+P89,Very early,ALL,178,P89-d178,Germline,BM,Viable cells,Yes,No,CR,Yes,0.487337440109514,0.05,2
+P89,Very early,ALL,242,P89-d242,Relapse1,PB,"Viable cells, PTA",No,Yes,Relapse,No,0.662559890485969,1,0
+P89,Very early,ALL,299,P89-d299,Relapse2,PB,Pellet,Yes,No,Relapse,No,0.818617385352498,1,2
+P89,Very early,ALL,398,P89-d398,Relapse3,BM,Glass Slide,Yes,No,Relapse,No,1.08966461327858,1,2
+P95,Late,AML,0,P95-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P95,Late,AML,0,P95-d723,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P95,Late,AML,927,P95-d927,Relapse1,BM,DNA,-,-,-,-,2.53798767967146,1,0
+P99,Late,AML,0,P99-d0,Diagnosis,BM,DNA,-,-,-,-,0,1,0
+P99,Late,AML,0,P99-d175,Germline,PB,DNA,-,-,-,-,0,0.1,0
+P99,Late,AML,477,P99-d477,Relapse1,BM,DNA,-,-,-,-,1.30595482546201,1,0
